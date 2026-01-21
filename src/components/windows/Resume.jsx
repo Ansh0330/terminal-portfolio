@@ -24,7 +24,7 @@ const Resume = ({
       onFocus={onFocus}
     >
       <div className="resume-window">
-        <iframe src="/resume.pdf" frameborder="0"></iframe>
+        <embed src="/resume.pdf" frameborder="0"></embed>
       </div>
     </MacWindow>
   );
