@@ -11,7 +11,7 @@ const Dock = ({ windowState, setWindowState }) => {
         }}
         className="icon github"
       >
-        <img src="doc-icons/github.svg" alt="" />
+        <img src="doc-icons/github.png" alt="" />
       </div>
       <div
         className="icon note"
@@ -19,7 +19,7 @@ const Dock = ({ windowState, setWindowState }) => {
           setWindowState((state) => ({ ...state, note: true }));
         }}
       >
-        <img src="/doc-icons/note.svg" alt="" />
+        <img src="/doc-icons/notes.svg" alt="" />
       </div>
       <div
         className="icon pdf"
@@ -38,7 +38,7 @@ const Dock = ({ windowState, setWindowState }) => {
           );
         }}
       >
-        <img src="/doc-icons/calender.svg" alt="" />
+        <img src="/doc-icons/calendar.webp" alt="" />
       </div>
       <div
         className="icon spotify"
@@ -46,7 +46,7 @@ const Dock = ({ windowState, setWindowState }) => {
           setWindowState((state) => ({ ...state, spotify: true }));
         }}
       >
-        <img src="/doc-icons/spotify.svg" alt="" />
+        <img src="/doc-icons/spotify.png" alt="" />
       </div>
       <a
         href="https://mail.google.com/mail/?view=cm&fs=1&to=meanshbhardwaj@gmail.com&su=Portfolio%20Contact"
@@ -66,7 +66,7 @@ const Dock = ({ windowState, setWindowState }) => {
           );
         }}
       >
-        <img src="/doc-icons/link.svg" alt="" />
+        <img src="/doc-icons/linkedin.png" alt="" />
       </div>
       <div
         className="icon cli"
@@ -74,7 +74,7 @@ const Dock = ({ windowState, setWindowState }) => {
           setWindowState((state) => ({ ...state, cli: true }));
         }}
       >
-        <img src="/doc-icons/cli.svg" alt="" />
+        <img src="/doc-icons/terminal.png" alt="" />
       </div>
     </footer>
   );
