@@ -1,12 +1,28 @@
 import React from "react";
 import MacWindow from "./MacWindow";
 import "./spotify.scss";
-const Spotify = ({ windowName, setWindowState }) => {
+
+const Spotify = ({
+  windowName,
+  windowState,
+  setwindowState,
+  minimized,
+  layout,
+  onLayoutChange,
+  zIndex,
+  onFocus,
+}) => {
   return (
     <MacWindow
       width="25vw"
       windowName={windowName}
-      setWindowState={setWindowState}
+      windowState={windowState}
+      setwindowState={setwindowState}
+      minimized={minimized}
+      layout={layout}
+      onLayoutChange={onLayoutChange}
+      zIndex={zIndex}
+      onFocus={onFocus}
     >
       <div className="spotify-window">
         <iframe
@@ -14,9 +30,9 @@ const Spotify = ({ windowName, setWindowState }) => {
           style={{ borderRadius: "12px" }}
           src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdpQPPZq3F7n?utm_source=generator&theme=0"
           width="100%"
-          height="352"
+          height="100%"
           frameBorder="0"
-          allowfullscreen=""
+          allowFullScreen={true}
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>

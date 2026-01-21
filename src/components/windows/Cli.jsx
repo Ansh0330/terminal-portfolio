@@ -3,7 +3,16 @@ import MacWindow from "./MacWindow";
 import Terminal from "react-console-emulator";
 import "./cli.scss";
 
-const Cli = ({ windowName, setWindowState }) => {
+const Cli = ({
+  windowName,
+  windowState,
+  setWindowState,
+  minimized,
+  layout,
+  onLayoutChange,
+  zIndex,
+  onFocus,
+}) => {
   const commands = {
     about: {
       description: "About me",
@@ -168,13 +177,27 @@ Happy exploring! 🚀
 `;
 
   return (
-    <MacWindow windowName={windowName} setWindowState={setWindowState}>
+    <MacWindow
+      windowName={windowName}
+      windowState={windowState}
+      setWindowState={setWindowState}
+      minimized={minimized}
+      layout={layout}
+      onLayoutChange={onLayoutChange}
+      zIndex={zIndex}
+      onFocus={onFocus}
+    >
       <div className="cli-window">
         <Terminal
           commands={commands}
           welcomeMessage={welcomeMessage}
           promptLabel={"anshkotnala:~$"}
-          promptLabelStyle={{ color: "#00ff00" }}
+          promptLabelStyle={{
+            color: "#00ff00",
+            fontFamily: "'JetBrains Mono', 'SF Mono', Menlo, monospace",
+            fontSize: "14px",
+          }}
+          style={{ height: "100%" }}
         />
       </div>
     </MacWindow>

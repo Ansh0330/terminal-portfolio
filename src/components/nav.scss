@@ -22,9 +22,13 @@ nav {
   .left,
   .right {
     display: flex;
+    align-items: center;
     gap: 1rem;
-    .date{
+    .date {
       font-weight: 500;
     }
+  }
+  img {
+    height: 1rem;
   }
 }
