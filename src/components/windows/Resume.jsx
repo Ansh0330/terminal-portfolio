@@ -2,9 +2,27 @@ import React from "react";
 import MacWindow from "./MacWindow";
 import "./resume.scss";
 
-const Resume = ({ windowName, setWindowState }) => {
+const Resume = ({
+  windowName,
+  windowState,
+  setWindowState,
+  minimized,
+  layout,
+  onLayoutChange,
+  zIndex,
+  onFocus,
+}) => {
   return (
-    <MacWindow windowName={windowName} setWindowState={setWindowState}>
+    <MacWindow
+      windowName={windowName}
+      windowState={windowState}
+      setWindowState={setWindowState}
+      minimized={minimized}
+      layout={layout}
+      onLayoutChange={onLayoutChange}
+      zIndex={zIndex}
+      onFocus={onFocus}
+    >
       <div className="resume-window">
         <iframe src="/resume.pdf" frameborder="0"></iframe>
       </div>

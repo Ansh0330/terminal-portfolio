@@ -1,11 +1,11 @@
 import React from "react";
-import MacWindow from "./MacWindow";
 import "./spotify.scss";
+import MacWindow from "./MacWindow";
 
 const Spotify = ({
   windowName,
   windowState,
-  setwindowState,
+  setWindowState,
   minimized,
   layout,
   onLayoutChange,
@@ -17,7 +17,7 @@ const Spotify = ({
       width="25vw"
       windowName={windowName}
       windowState={windowState}
-      setwindowState={setwindowState}
+      setWindowState={setWindowState}
       minimized={minimized}
       layout={layout}
       onLayoutChange={onLayoutChange}
