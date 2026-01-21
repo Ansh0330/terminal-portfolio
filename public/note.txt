@@ -1,0 +1,158 @@
+/**
+ * @file: profile.config.ts
+ * @author: Ansh Kotnala
+ * @summary: Full-Stack Engineer | MERN • Next.js • Cloud • DSA
+ */
+
+// --------------------------------------------------
+// 1. CORE TECH STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  languages: [
+    "C",
+    "C++",
+    "Python",
+    "JavaScript (ES6+)",
+    "TypeScript",
+  ],
+
+  frontend: [
+    "React.js",     // 90%
+    "Next.js",      // 88%
+    "HTML5",        // 95%
+    "CSS3",         // 90%
+    "Tailwind CSS", // 85%
+    "Radix UI",     // 75%
+  ],
+
+  backend: [
+    "Node.js",      // 85%
+    "Express.js",   // 85%
+    "MongoDB",      // 80%
+    "PostgreSQL",   // 75%
+    "Redis",        // 70%
+    "Prisma",       // 70%
+  ],
+
+  cloud_devops: [
+    "AWS",
+    "Docker",
+    "Linux",
+    "Vercel",
+  ],
+
+  tools: [
+    "Git",
+    "Postman",
+    "VS Code",
+    "Figma",
+  ],
+};
+
+// --------------------------------------------------
+// 2. PROFESSIONAL EXPERIENCE
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /** 
+   * FULL STACK DEVELOPER INTERN
+   * @company AZ Softwares
+   * @period July 2025 – Sept 2025
+   */
+  public async AZ_Softwares(): Promise<Impact> {
+    const role = "Full Stack Developer Intern";
+
+    const frontend = "Built responsive UIs using React.js";
+    const backend = "Developed REST APIs with Node.js & Express.js";
+
+    const databases = [
+      "MongoDB schema design",
+      "MySQL query optimization",
+    ];
+
+    const collaboration = "Agile team collaboration with code reviews and sprint planning";
+
+    return {
+      role,
+      frontend,
+      backend,
+      databases,
+      collaboration,
+    };
+  }
+}
+
+// --------------------------------------------------
+// 3. FEATURED PROJECTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  stack: string[];
+  impact: string;
+}
+
+const projects: Project[] = [
+  {
+    name: "StudyNotion (EdTech Platform)",
+    stack: ["MERN", "JWT", "Razorpay", "Cloudinary", "Chart.js"],
+    impact: "Improved student engagement by 20% with analytics dashboards",
+  },
+  {
+    name: "True Feedback",
+    stack: ["Next.js", "TypeScript", "NextAuth", "Gemini AI"],
+    impact: "Anonymous feedback system with AI-powered prompts & 40% better mobile UX",
+  },
+  {
+    name: "Droply (Cloud Storage)",
+    stack: ["Next.js", "TypeScript", "ImageKit", "Clerk"],
+    impact: "Handled 1K+ uploads with 99.9% uptime on Vercel",
+  },
+];
+
+// --------------------------------------------------
+// 4. COMPETITIVE PROGRAMMING & ACHIEVEMENTS
+// --------------------------------------------------
+
+const achievements = {
+  DSA: "150+ problems solved on LeetCode",
+  academics: [
+    "CBSE Class XII – 94.8%",
+    "CBSE Class X – 89%",
+  ],
+  strengths: [
+    "Problem Solving",
+    "OOP",
+    "Network Security",
+    "Performance Optimization",
+  ],
+};
+
+// --------------------------------------------------
+// 5. EDUCATION
+// --------------------------------------------------
+
+const education = {
+  university: "Delhi Technological University (DTU)",
+  degree: "B.Tech Mechanical Engineering (Minor in IT)",
+  period: "2023 – 2027",
+  cgpa: "8.48 (till 4th semester)",
+};
+
+// --------------------------------------------------
+// 6. STATUS
+// --------------------------------------------------
+
+export const STATUS = {
+  availability: "Open to Internships & Full-Time SDE Roles",
+  location: "India / Remote",
+  focus: [
+    "Full-Stack Development",
+    "Scalable Systems",
+    "Data Structures & Algorithms",
+  ],
+};
+
+export default new ProfessionalHistory();

@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&q=80&w=1000",
+    "title": "StudyNotion – Full-Stack EdTech Platform",
+    "description": "A complete MERN-based EdTech platform enabling instructors to create and monetize courses while students can browse, purchase, and track learning progress. Features secure authentication, Razorpay payments, cloud media storage, and analytics dashboards.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "Razorpay",
+      "Cloudinary",
+      "JWT"
+    ],
+    "repoLink": "https://github.com/Ansh0330/StudyNotion---A-Full-Stack-Edtech-App",
+    "demoLink": "https://studynotion-frontend-beta-jet.vercel.app/"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1000",
+    "title": "TrueFeedback – Anonymous Feedback Platform",
+    "description": "A privacy-focused Next.js application that allows users to receive honest, anonymous feedback via shareable links. Includes dual authentication, AI-powered feedback prompts using Google Gemini, email notifications, and a responsive dashboard.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "NextAuth",
+      "MongoDB",
+      "Tailwind CSS",
+      "Google Gemini AI",
+      "Nodemailer"
+    ],
+    "repoLink": "https://github.com/Ansh0330/truefeedback",
+    "demoLink": "https://true-feedback-gamma-rose.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&q=80&w=1000",
+    "title": "Droply – Cloud File Storage App",
+    "description": "A Dropbox-inspired cloud storage web app built with Next.js and TypeScript. Supports file uploads, folder navigation, starring, trash management, optimized media delivery, and authentication using Clerk.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "ImageKit",
+      "Clerk",
+      "Axios",
+      "Vercel"
+    ],
+    "repoLink": "https://github.com/Ansh0330/droply",
+    "demoLink": "https://droply-cyan.vercel.app/"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=1000",
+    "title": "Codyssey – Coding Practice Platform",
+    "description": "A LeetCode-inspired coding platform featuring a Monaco-based code editor, multi-language support, real-time execution using Judge0 API, submission tracking, and an admin panel for managing problems.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Monaco Editor",
+      "Judge0 API",
+      "JWT",
+      "Zustand"
+    ],
+    "repoLink": "https://github.com/Ansh0330/Codyssey",
+    "demoLink": null
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&q=80&w=1000",
+    "title": "MusicApp – Next.js Learning Platform",
+    "description": "A modern music learning platform built with Next.js 15 and Tailwind CSS, featuring curated courses, instructor profiles, testimonials, webinars, and smooth UI animations using Aceternity and shadcn/ui.",
+    "tags": ["Next.js", "React", "Tailwind CSS", "Shadcn UI", "Aceternity UI"],
+    "repoLink": "https://github.com/ansh0330/music-app-next.js",
+    "demoLink": "https://music-app-next-js-one.vercel.app/"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1000",
+    "title": "De Core – Handcrafted Art Showcase",
+    "description": "A visually rich showcase website for handcrafted art products featuring animated sections, 3D assets with Spline, responsive layouts, and modern UI patterns built using Next.js App Router.",
+    "tags": [
+      "Next.js",
+      "Tailwind CSS",
+      "Aceternity UI",
+      "Spline",
+      "Framer Motion"
+    ],
+    "repoLink": "https://github.com/Ansh0330/Decore",
+    "demoLink": "https://decore-zeta.vercel.app/"
+  }
+]
