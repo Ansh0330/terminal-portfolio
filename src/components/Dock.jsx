@@ -1,6 +1,5 @@
 import React from "react";
 import "./dock.scss";
-import Spotify from "./windows/Spotify";
 
 const Dock = ({ windowState, setWindowState }) => {
   const toggleWindow = (key) => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./app.scss";
-import Doc from "./Components/Dock.jsx";
+import Dock from "./Components/Dock.jsx";
 import Nav from "./Components/Nav.jsx";
 import Github from "./Components/windows/Github.jsx";
 import Note from "./Components/windows/Note.jsx";
@@ -42,7 +42,7 @@ function App() {
     <>
       <main>
         <Nav />
-        <Doc windowState={windowState} setWindowState={setWindowState} />
+        <Dock windowState={windowState} setWindowState={setWindowState} />
         {windowState.github?.open && (
           <Github
             windowName="github"
